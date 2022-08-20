@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Container {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: #1d1d1d;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 18%;
+  width: 500px;
+}
+.Container .TextBox {
+  border: none;
+  background-color: #1d1d1d;
+  padding: 20px;
+  outline: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+}
+.Container ::-webkit-input-placeholder {
+  color: lightgrey;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.Container .TweetButton {
+  border: none;
+  border-radius: 10px;
+  background-color: #ff7a00;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  margin-right: 0px;
+  cursor: pointer;
+}
+.Container .TweetButton .ButtonText {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 530px) {
+  .Container {
+    width: 90%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=TweetStyles.module.css.map */
